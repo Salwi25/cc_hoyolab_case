@@ -23,15 +23,15 @@
                     <form action="insertCreatorDo.php" method="post">
                         <div class="form-group">
                             <label>Account ID</label>
-                            <input type="text" name="account id" class="form-control" value="<?php echo($json["data"][0]["account_id"]); ?>">
+                            <input type="text" name="account id" class="form-control" value="">
                         </div>
                         <div class="form-group">
                             <label>Username</label>
-                            <input type="text" name="username" class="form-control" value="<?php echo($json["data"][0]["username"]); ?>">
+                            <input type="text" name="username" class="form-control" value="">
                         </div>
                         <div class="form-group">
                             <label>Creator Field</label>
-                            <input type="text" name="creator field" class="form-control" value="<?php echo($json["data"][0]["creator_field"]); ?>">
+                            <input type="text" name="creator field" class="form-control" value="">
                         </div>
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit">
                     </form>
