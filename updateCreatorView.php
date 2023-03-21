@@ -18,7 +18,7 @@
  $curl= curl_init();
  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
  //Pastikan sesuai dengan alamat endpoint dari REST API di ubuntu
- curl_setopt($curl, CURLOPT_URL, 'http://10.33.35.44/cc_hoyolab_api/creator_api.php?id_cc='.$id_cc.'');
+ curl_setopt($curl, CURLOPT_URL, 'http://localhost/cc_hoyolab_api/creator_api.php?id_cc='.$id_cc.'');
  $res = curl_exec($curl);
  $json = json_decode($res, true);
 //var_dump($json);

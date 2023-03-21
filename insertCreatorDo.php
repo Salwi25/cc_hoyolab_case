@@ -7,11 +7,11 @@ $username = $_POST['username'];
 $creator_field = $_POST['creator_field'];
 
 //Pastikan sesuai dengan alamat endpoint dari REST API di ubuntu
-$url='http://10.33.35.44/cc_hoyolab_api/creator_api.php';
+$url='http://localhost/cc_hoyolab_api/creator_api.php';
 $ch = curl_init($url);
 // data yang akan dikirim ke REST api, dengan format json
 $jsonData = array(
-    'accout_id' =>  $account_id,
+    'account_id' =>  $account_id,
     'username' => $username,
     'creator_field' =>  $creator_field,
 );

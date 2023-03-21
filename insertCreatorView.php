@@ -23,7 +23,7 @@
                     <form action="insertCreatorDo.php" method="post">
                         <div class="form-group">
                             <label>Account ID</label>
-                            <input type="text" name="account id" class="form-control" value="">
+                            <input type="text" name="account_id" class="form-control" value="">
                         </div>
                         <div class="form-group">
                             <label>Username</label>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="form-group">
                             <label>Creator Field</label>
-                            <input type="text" name="creator field" class="form-control" value="">
+                            <input type="text" name="creator_field" class="form-control" value="">
                         </div>
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit">
                     </form>

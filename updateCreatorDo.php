@@ -10,7 +10,7 @@ $id_cc = $_POST['id_cc'];
 
 
 //Pastikan sesuai dengan alamat endpoint dari REST API di ubuntu
-$url='http://10.33.35.44/cc_hoyolab_api/creator_api.php?id_cc='.$id_cc.'';
+$url='http://localhost/cc_hoyolab_api/creator_api.php?id_cc='.$id_cc.'';
 $ch = curl_init($url);
 //kirimkan data yang akan di update
 $jsonData = array(
